@@ -4,6 +4,7 @@ export default function Header() {
 	const { url } = useLocation();
 	return (
 		<header>
+			<img src="/images/preact.svg" />
 			<nav>
 				<a href="/">Home</a>
 				<a href="/about">About</a>
